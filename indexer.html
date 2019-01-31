@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+			  <head>
+			    <title>TIC TAC TOE</title>
+			 	 <link rel="stylesheet" href="style.css"/>
+			  </head>
+
+
+  <body onload="startGame();">
+  	<!---------TITLE ------------------------------------>
+  	<div class= "main-title">
+  	<h1> TIC TAC TOE </h1>
+  	<button onclick= "myRefresh()">Start Over</button>
+  	<img class="diamond" src="images/kraft.png">
+  </div>
+
+
+
+  	<!-------GAME TABLE---------------------------------->
+  	<div class="game-box">
+	  	<div class="game-table">
+	  		<h2 id= "message"> '<span id= "player-symbol"> X </span>'  turn </h2>
+	  		<table>
+
+	  			<tr> 
+	  				<td class= "prison" id= "s0" onClick="nextMove(this)">  </td> 
+	  				<td class= "prison" id= "s1"onClick="nextMove(this)">  </td> 
+	  				<td class= "prison" id= "s2"onClick="nextMove(this)">  </td>
+	  			<tr>
+	  				<td class= "prison" id= "s3"onClick="nextMove(this)">  </td> 
+	  				<td class= "prison" id= "s4"onClick="nextMove(this)">  </td> 
+	  				<td class= "prison" id= "s5"onClick="nextMove(this)"> </td>
+	  			<tr>
+	  				<td class= "prison" id= "s6" onClick="nextMove(this)"> </td> 
+	  				<td class= "prison" id= "s7" onClick="nextMove(this)"> </td> 
+	  				<td class= "prison" id= "s8" onClick="nextMove(this)"> </td>
+	  			</tr>
+
+	  		</table>
+
+	  	</div>
+	  	<img class="lead" src="images/pencil.png">
+  	</div>
+ 	<!-------------------------------------------------->
+  		
+
+
+
+
+
+
+
+
+
+  		<script src="scripter.js" type="text/javascript"></script>
+  </body>
+</html>

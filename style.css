@@ -1,0 +1,78 @@
+table {
+		border-spacing: 0;
+		z-index: 99;
+}
+
+.main-title {
+	position:relative;
+	z-index: 0;
+}
+
+h1 {
+	font-family: "Verdana"; 	
+ 	position: absolute;
+ 	font-size: 50px;
+ 	left:40%;
+ 	top:85px;
+ 	text-align: center;
+ 	text-shadow: 10px 10px 15px #404040;
+ 	z-index: 2;
+ }
+
+#message {
+	margin:0;
+
+}
+
+ button {
+ 	position: absolute;
+ 	left: 48%;
+ 	z-index: 28;
+ 	top: 190px;
+ }
+
+.diamond {
+	position: absolute;
+	left:50px;
+	z-index: 0;
+	transform: rotate(45deg);
+	box-shadow: 15px 15px gray;
+}
+
+.lead {
+	position: absolute;
+	width:auto;
+	height: 700px;
+	top:100px;
+	transform: rotate(35deg);
+	z-index: -50;
+}
+
+
+td {
+	border-style: solid;
+	width:100px;
+	height:100px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	z-index: 99;
+}
+
+.game-box {
+	position: absolute;
+	left: 40%;
+	top: 220px;
+	z-index: 99;
+}
+
+body {
+	position: relative;
+}
+
+
+ h2 {
+ 	text-align: center;
+ 	font-weight: 200;
+ }
+
